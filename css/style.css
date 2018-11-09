@@ -7,8 +7,10 @@
     font-family: sans-serif;
 }
 
+/*HEADER*/
+
 header {
-    background: lightgray;
+    background: #dcc7b4;
     width: 100%;
     padding: 0 20px;
 }
@@ -17,6 +19,7 @@ header {
     display: flex;
     align-items: center;
     margin-left: .5em;
+    color: #8e1320;
 }
 
 #logo img {
@@ -25,7 +28,7 @@ header {
 
 #logo,
 #main-nav a {
-    color: black;
+    color: #8e1320;
     text-decoration: none;
 }
 
@@ -54,15 +57,19 @@ header {
     display: none;
 }
 
+/*FOOTER*/
+
 footer{
     
     text-align: center;
-    background-color: aqua;
+    background-color: #dcc7b4;
+    color: #8e1320;
     padding-top: 10px;
     position: absolute;
     width: 100%;
      
 }
+/*MAIN*/
 
 main{
     width: 95%;
@@ -148,12 +155,6 @@ main{
     }
     
 }
-
-
-
-
-
-
 
 
 /*tablet og op*/
