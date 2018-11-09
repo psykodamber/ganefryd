@@ -76,6 +76,25 @@ main{
 
 .galleri{text-align: center;}
 
+.tallgalleri{
+    display: flex;
+    flex-direction: column
+    
+}
+
+.tallgalleri section{
+    flex-direction: row;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tallgalleri img{
+    width: 30%;
+    border-radius: 50%;
+}
+.tallgalleri p{margin-right: 10%;}
     
     
 
@@ -204,6 +223,7 @@ main{
     .galleri{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .galleri section{
         width: 45%;
@@ -226,6 +246,9 @@ main{
     
     #bigpicture{
         width: 30%;
+    }
+    .galleri section {
+       width: 33%;
     }
     
 
