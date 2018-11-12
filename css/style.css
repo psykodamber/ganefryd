@@ -12,6 +12,7 @@
 header {
     background: #dcc7b4;
     width: 100%;
+    color: #000000;
     padding: 0 20px;
 }
 
@@ -23,9 +24,8 @@ header {
 }
 
 #logo img {
-    width: 15%;
+    width:50%;
 }
-
 #logo,
 #main-nav a {
     color: #8e1320;
@@ -60,57 +60,30 @@ header {
 /*FOOTER*/
 
 footer{
-    text-align: center;
     background-color: #dcc7b4;
     color: #8e1320;
     padding-top: 10px;
     position: absolute;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
      
 }
 /*MAIN*/
 
-.Billeder img {
+.Billeder{
     display:wrap;
     flex-wrap: wrap;
-    width: 40px;
-    float:left;
-
+    max-width: 90px; 
 }
 
 
-.Billeder2 img {
-    display:flex;
-    flex-wrap: wrap;
-    width: 40px;
-    padding-top: 40px;
-    float:left;
-    
-    
+footer img {
+    width: 40px;    
 }
 
-.Adresse {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Adresse2 {
-   display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Aabningstider {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Aabningstider2 {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+footer div{
+    margin: 0 10px 15px;
 }
 
 main{
@@ -127,8 +100,7 @@ main{
 
 .tallgalleri{
     display: flex;
-    flex-direction: column
-    
+    flex-direction: column   
 }
 
 .tallgalleri section{
@@ -144,7 +116,6 @@ main{
     border-radius: 50%;
 }
 .tallgalleri p{margin-right: 10%;}
-    
     
 
 /*Mobil*/
@@ -198,7 +169,6 @@ main{
     
 }
 
-
 <<<<<<< HEAD
 
 
@@ -211,22 +181,22 @@ main{
     header {
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
 
     #logo-burger {
         margin: 0;
-
+        width: 100%;
+    }
+    
+    #logo img {
+        width: 30%;
     }
 
     #logo {
-        margin-top: .3em;
-        
-        
+        margin-top: .3em;    
     }
     
-
     #main-nav {
         justify-content: space-between;
         width: 100%;
@@ -253,8 +223,7 @@ main{
        width: 45%;
         height: 30%;
         margin: 1%;
-        align-self: center;
-        
+        align-self: center;  
         
     }
 
@@ -292,14 +261,14 @@ main{
         width: 60%;
     }
     
+    
     #bigpicture{
-        width: 30%;
+        width: 40%;
     }
     .galleri section {
        width: 33%;
     }
     
-
 
 }
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
