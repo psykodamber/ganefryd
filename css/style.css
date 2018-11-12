@@ -87,24 +87,7 @@ footer div{
 }
 /*MAIN*/
 
-.Billeder img {
-    display:wrap;
-    flex-wrap: wrap;
-    width: 40px;
-    float:left;
 
-}
-
-
-.Billeder2 img {
-    display:flex;
-    flex-wrap: wrap;
-    width: 40px;
-    padding-top: 40px;
-    float:left;
-    
-    
-}
 
 .Adresse {
     display: flex;
