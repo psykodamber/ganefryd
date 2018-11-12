@@ -8,7 +8,7 @@
 }
 
 header {
-    background: lightgray;
+    background: #dcc7b4;
     width: 100%;
     padding: 0 20px;
 }
@@ -55,13 +55,55 @@ header {
 }
 
 footer{
-    
     text-align: center;
     background-color: aqua;
     padding-top: 10px;
     position: absolute;
     width: 100%;
      
+}
+
+.Billeder img {
+    display:wrap;
+    flex-wrap: wrap;
+    width: 40px;
+    float:left;
+
+}
+
+
+.Billeder2 img {
+    display:flex;
+    flex-wrap: wrap;
+    width: 40px;
+    padding-top: 40px;
+    float:left;
+    
+    
+}
+
+.Adresse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Adresse2 {
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Aabningstider {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Aabningstider2 {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 main{
@@ -129,10 +171,6 @@ main{
     }
     
 }
-
-
-
-
 
 
 
