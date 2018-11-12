@@ -60,58 +60,38 @@ header {
 /*FOOTER*/
 
 footer{
-    text-align: center;
     background-color: #dcc7b4;
     color: #8e1320;
     padding-top: 10px;
     position: absolute;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
      
+}
+
+
+.Billeder{
+    display:wrap;
+    flex-wrap: wrap;
+     width: 90px;
+}
+
+
+footer img {
+    width: 40px;    
+}
+
+footer div {
+    
+    margin: 0 10px 15px;
+
 }
 /*MAIN*/
 
-.Billeder img {
-    display:wrap;
-    flex-wrap: wrap;
-    width: 40px;
-    float:left;
-
-}
 
 
-.Billeder2 img {
-    display:flex;
-    flex-wrap: wrap;
-    width: 40px;
-    padding-top: 40px;
-    float:left;
-    
-    
-}
 
-.Adresse {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Adresse2 {
-   display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Aabningstider {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Aabningstider2 {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
 main{
     width: 95%;
