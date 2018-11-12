@@ -7,6 +7,8 @@
     font-family: sans-serif;
 }
 
+/*HEADER*/
+
 header {
     background: #dcc7b4;
     width: 100%;
@@ -17,6 +19,7 @@ header {
     display: flex;
     align-items: center;
     margin-left: .5em;
+    color: #8e1320;
 }
 
 #logo img {
@@ -25,7 +28,7 @@ header {
 
 #logo,
 #main-nav a {
-    color: black;
+    color: #8e1320;
     text-decoration: none;
 }
 
@@ -54,14 +57,18 @@ header {
     display: none;
 }
 
+/*FOOTER*/
+
 footer{
     text-align: center;
-    background-color: aqua;
+    background-color: #dcc7b4;
+    color: #8e1320;
     padding-top: 10px;
     position: absolute;
     width: 100%;
      
 }
+/*MAIN*/
 
 .Billeder img {
     display:wrap;
@@ -118,6 +125,25 @@ main{
 
 .galleri{text-align: center;}
 
+.tallgalleri{
+    display: flex;
+    flex-direction: column
+    
+}
+
+.tallgalleri section{
+    flex-direction: row;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tallgalleri img{
+    width: 30%;
+    border-radius: 50%;
+}
+.tallgalleri p{margin-right: 10%;}
     
     
 
@@ -173,8 +199,11 @@ main{
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
 /*tablet og op*/
 @media all and (min-width: 600px) {
 
@@ -242,6 +271,7 @@ main{
     .galleri{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .galleri section{
         width: 45%;
@@ -264,6 +294,9 @@ main{
     
     #bigpicture{
         width: 30%;
+    }
+    .galleri section {
+       width: 33%;
     }
     
 
