@@ -154,6 +154,14 @@ main{
     width: 100%;
     }
     
+    /*produktliste*/
+    
+    .product-list a {
+        text-decoration: none;
+        list-style-type: none; 
+         
+    }
+    
 }
 
 
