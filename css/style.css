@@ -74,7 +74,7 @@ footer{
 .Billeder{
     display:wrap;
     flex-wrap: wrap;
-    max-width: 90px; 
+     
 }
 
 
@@ -82,36 +82,16 @@ footer img {
     width: 40px;    
 }
 
-footer div{
+footer div {
+    
     margin: 0 10px 15px;
+
 }
 /*MAIN*/
 
 
 
-.Adresse {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
-.Adresse2 {
-   display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Aabningstider {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.Aabningstider2 {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
 main{
     width: 95%;
