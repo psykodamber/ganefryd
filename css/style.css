@@ -94,8 +94,21 @@ main{
     width: 30%;
     border-radius: 50%;
 }
-.tallgalleri p{margin-right: 10%;}
+.tallgalleri p{margin-right: 10%;
+
+
+
+
+}
+
+/*.box {
     
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}  */ 
     
 
 /*Mobil*/
@@ -144,7 +157,6 @@ main{
 
     main img{
     margin: 1%;
-    width: 100%;
     }
     
 }
@@ -249,6 +261,11 @@ main{
     }
     .galleri section {
        width: 33%;
+    }
+    
+    main img {
+        width: 70%;
+        margin: auto;
     }
     
 
