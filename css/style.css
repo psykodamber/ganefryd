@@ -258,7 +258,10 @@ main{
     
     #logo img {
     width: 35%;
-}
+    }
+    footer{
+        font-size: 1em;
+    }
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
