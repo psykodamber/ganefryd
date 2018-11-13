@@ -8,6 +8,9 @@
 }
 
 /*HEADER*/
+body{
+    background-color: #f2e5da;
+}
 
 header {
     background: #dcc7b4;
@@ -23,7 +26,7 @@ header {
 }
 
 #logo img {
-    width: 15%;
+    width: 45%;
 }
 
 #logo,
@@ -60,25 +63,32 @@ header {
 /*FOOTER*/
 
 footer{
-    text-align: center;
     background-color: #dcc7b4;
     color: #8e1320;
     padding-top: 10px;
     position: absolute;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
      
 }
+<<<<<<< HEAD
+=======
 
-.Billeder2 img {
-    display:flex;
+
+.Billeder{
+    display:wrap;
     flex-wrap: wrap;
-    width: 40px;
-    padding-top: 40px;
-    float:left;
-    
-    
+     width: 90px;
 }
 
+>>>>>>> master
+
+footer img {
+    width: 40px;    
+}
+
+<<<<<<< HEAD
 .billeder {
     display: flex;
     flex-direction: row;
@@ -94,23 +104,19 @@ footer{
     flex-wrap: wrap;
     flex-direction: column;
 }
+=======
+footer div {
+    
+    margin: 0 10px 15px;
+>>>>>>> master
 
-.Adresse2 {
-   display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
+/*MAIN*/
 
-.Aabningstider {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
-.Aabningstider2 {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+#frontpic{
+    width: 100%;
+    margin: 0 auto;
 }
 /*MAIN*/
 
@@ -132,10 +138,12 @@ footer{
 }
 
 
+
+
 main{
     width: 95%;
     margin: 1% auto;
-    background-color: pink;
+    background-color: #f2e5da;
     }
 
 .galleri img{
@@ -155,8 +163,15 @@ main{
     margin-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
+    
+    
 }
+.tallgalleri p{
+    margin-left: 50px;
+}
+
+
 
 .tallgalleri img{
     width: 30%;
@@ -225,11 +240,21 @@ main{
     margin: 1%;
     width: 100%;
     }
+<<<<<<< HEAD
 
 }
     /*produktliste*/
     
     
+=======
+    footer{
+        font-size: 0.8em;
+    }
+    
+}
+
+
+>>>>>>> master
 
 /*tablet og op*/
 @media all and (min-width: 600px) {
@@ -303,6 +328,13 @@ main{
     .galleri section{
         width: 45%;
     }
+    
+    #logo img {
+    width: 35%;
+    }
+    footer{
+        font-size: 1em;
+    }
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
@@ -324,6 +356,9 @@ main{
     }
     .galleri section {
        width: 33%;
+    }
+      #logo img {
+    width: 25%;
     }
     
 
