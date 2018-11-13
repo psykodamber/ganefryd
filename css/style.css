@@ -175,6 +175,9 @@ main{
     margin: 1%;
     width: 100%;
     }
+    footer{
+        font-size: 0.8em;
+    }
     
 }
 
