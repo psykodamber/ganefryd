@@ -23,7 +23,7 @@ header {
 }
 
 #logo img {
-    width: 15%;
+    width: 45%;
 }
 
 #logo,
@@ -252,6 +252,10 @@ main{
     .galleri section{
         width: 45%;
     }
+    
+    #logo img {
+    width: 35%;
+}
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
@@ -273,6 +277,9 @@ main{
     }
     .galleri section {
        width: 33%;
+    }
+      #logo img {
+    width: 25%;
     }
     
 
