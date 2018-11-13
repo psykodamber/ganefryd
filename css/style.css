@@ -8,6 +8,9 @@
 }
 
 /*HEADER*/
+body{
+    background-color: #f2e5da;
+}
 
 header {
     background: #dcc7b4;
@@ -96,7 +99,7 @@ footer div {
 main{
     width: 95%;
     margin: 1% auto;
-    background-color: pink;
+    background-color: #f2e5da;
     }
 
 .galleri img{
@@ -116,8 +119,15 @@ main{
     margin-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
+    
+    
 }
+.tallgalleri p{
+    margin-left: 50px;
+}
+
+
 
 .tallgalleri img{
     width: 30%;
