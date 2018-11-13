@@ -186,6 +186,10 @@ main{
         text-align: left;
         margin: 5%;
     }
+
+.galleri section img{
+    width:100%;
+}
     
     
 
@@ -245,10 +249,6 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-.galleri section img {
-    width:30%;
-}
     
 
     footer{
@@ -263,6 +263,10 @@ main{
 @media all and (min-width: 600px) {
 
  /*HEADER NAV*/
+    body{
+        background-color: #87CEEB;
+    }
+    
     header {
         display: flex;
         justify-content: space-between;
@@ -281,7 +285,6 @@ main{
         
     }
     
-
     #main-nav {
         justify-content: space-between;
         width: 100%;
@@ -312,22 +315,11 @@ main{
 
     #bigwrap{
         display: flex;
-        margin-top: 5%;
-        
-    }
-    #bigwrap p{
-        margin: 5% 0;
+        margin-top: 5% 0;
         
     }
     
-    .galleri{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .galleri section{
-        width: 45%;
-    }
+    
     
     #logo img {
     width: 35%;
@@ -354,9 +346,7 @@ main{
     #bigpicture{
         width: 30%;
     }
-    .galleri section {
-       width: 33%;
-    }
+    
       #logo img {
     width: 25%;
     }
