@@ -1,9 +1,4 @@
-<<<<<<< HEAD
  *{
-=======
-/* baseret på Michelle's responsive menu*/
-* {
->>>>>>> footerbranch
     padding: 0;
     border: 0;
     margin: 0;
@@ -72,7 +67,7 @@ header {
 
 /*FOOTER*/
 
-footer {
+footer{
     background-color: #dcc7b4;
     color: #8e1320;
     padding-top: 10px;
@@ -80,11 +75,10 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+     
 }
 
 
-<<<<<<< HEAD
 
 .Billeder{
     display:flex;
@@ -108,12 +102,6 @@ footer {
 .billeder {
     display: flex;
     flex-direction: row;
-=======
-.Billeder {
-    display: wrap;
-    flex-wrap: wrap;
-    width: 90px;
->>>>>>> footerbranch
 }
 
 .billeder2 {
@@ -121,23 +109,17 @@ footer {
     flex-direction: row;
 }
 
-<<<<<<< HEAD
 .Adresse {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-=======
-footer img {
-    width: 40px;
->>>>>>> footerbranch
 }
 
 footer div {
-
+    
     margin: 0 10px 15px;
 
 }
-<<<<<<< HEAD
 /*MAIN*/
 main{
     width: 95%;
@@ -162,37 +144,14 @@ main{
     flex-direction: column;
 }
 
-=======
 
-/*MAIN*/
-
-
-
-main {
-    width: 95%;
-    margin: 1% auto;
-    background-color: white;
-}
-
-#klausforside {
-    text-align: center;
-}
-
-.galleri img {
-    width: 90%;
-}
-
-.galleri {
-    text-align: center;
-}
->>>>>>> footerbranch
-
-.tallgalleri {
+.tallgalleri{
     display: flex;
     flex-direction: column
+    
 }
 
-.tallgalleri section {
+.tallgalleri section{
     flex-direction: row;
     margin-top: 10px;
     display: flex;
@@ -205,7 +164,6 @@ main {
     margin-left: 50px;
 }
 
-<<<<<<< HEAD
 
 
 .tallgalleri img{
@@ -268,27 +226,6 @@ main {
 
     
     
-=======
-.tallgalleri img {
-    width: 30%;
-    border-radius: 50%;
-}
-
-.tallgalleri p {
-    margin-right: 10%;
-}
-
-
-
-.Nyheder {
-    text-align: left;
-}
-
-.Graskar {
-    width: 20%;
-    float: right;
-}
->>>>>>> footerbranch
 
 /*Mobil*/
 @media all and (max-width: 599px) {
@@ -296,9 +233,8 @@ main {
     /*HEADER NAV*/
     header {
         display: block;
-
+        
     }
-
 
     #logo-burger {
         justify-content: space-between;
@@ -333,14 +269,13 @@ main {
     #main-nav li:last-of-type {
         border-bottom: none;
     }
+    
 
-
-    main img {
-        margin: 1%;
-        width: 100%;
+    main img{
+    margin: 1%;
+    width: 100%;
     }
 
-<<<<<<< HEAD
     /*produktliste*/
     
     
@@ -351,27 +286,6 @@ main {
     footer{
         font-size: 0.8em;
     }
-=======
-    #klausforside {
-        width: 100%;
-        height: 40%;
-        margin: 1%;
-        align-self: center;
-    }
-
-
-    .Nyheder {
-        text-align: center;
-    }
-
-    .Graskar {
-        width: 70%;
-        margin: 15%;
-        margin-top: 5%;
-
-    }
-
->>>>>>> footerbranch
 }
 
 
@@ -385,7 +299,7 @@ main {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-
+        
     }
 
     #logo-burger {
@@ -394,19 +308,11 @@ main {
     }
 
     #logo {
-<<<<<<< HEAD
         margin-top: 0.3em;
         
         
     }
     
-=======
-        margin-top: .3em;
-
-    }
-
-
->>>>>>> footerbranch
     #main-nav {
         justify-content: space-between;
         width: 100%;
@@ -424,31 +330,21 @@ main {
     label {
         display: none;
     }
-<<<<<<< HEAD
     
     
     #bigpicture{
        width: 45%;
-=======
-
-    main {
-        width: 80%;
-    }
-
-    #klausforside {
-        width: 45%;
-        height: 30%;
->>>>>>> footerbranch
         margin: 1%;
         align-self: center;
+        
+        
     }
 
-    #bigwrap {
+    #bigwrap{
         display: flex;
         margin-top: 5%;
-
+        
     }
-<<<<<<< HEAD
     
     
     
@@ -485,20 +381,6 @@ main {
             font-size: 110%;
         }
     #frontpic{
-=======
-
-    #bigwrap p {
-        margin: 5% 0;
-    }
-
-    .galleri {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .galleri section {
->>>>>>> footerbranch
         width: 45%;
         float:right;
         margin-right: 3%;
@@ -508,30 +390,11 @@ main {
         margin-left: 6%;
        margin-right:6%;
     }
-<<<<<<< HEAD
     
     .intro{
         width:
     }
     
-=======
-
-
-    .Graskar {
-        width: 40%;
-        margin: 15%;
-        margin-top: 5%;
-    }
-
-    .klausforside {
-        width: 75%;
-    }
-    
-    .forside {
-        margin-left: 20%;
-        margin-right: 20%;
-    }
->>>>>>> footerbranch
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
@@ -545,20 +408,13 @@ main {
         align-items: center;
         align-content: space-evenly;
     }
-
     nav {
         width: 65%;
     }
-
-    .klausforside {
-        width: 65%;
-    }
     
-    .forside {
-        margin-left: 22%;
-        margin-right: 20%;
+    #bigpicture{
+        width: 30%;
     }
-<<<<<<< HEAD
     
     #logo img {
     width: 25%;
@@ -577,30 +433,5 @@ main {
     #frontpic{
         width:30%;
     }
-=======
-
-    .galleri section {
-        width: 33%;
-    }
-
-
-    .Nyheder {
-        text-align: left;
-    }
-
-    .Graskar {
-        position: relative;
-        width: 30%;
-        float: right;
-        margin-right: 0%;
-        margin-left: 1%;
-        bottom: 100px;
-        left: 30px;
-    }
-
-
-
->>>>>>> footerbranch
 }
-
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
