@@ -69,9 +69,7 @@ header {
 }
 
 /*FOOTER*/
-#mainfooter{
-        position: absolute;
-    }
+
 
 footer{
     background-color: #dcc7b4;
@@ -322,6 +320,9 @@ main{
 @media all and (min-width: 600px) {
 
  /*HEADER NAV*/
+    #mainfooter{
+        position: absolute;
+    }
     
     header {
         display: flex;
