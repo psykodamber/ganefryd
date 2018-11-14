@@ -22,6 +22,7 @@ header {
     background: #dcc7b4;
     width: 100%;
     padding: 0 20px;
+    top:0;
 }
 
 #logo-burger {
@@ -47,10 +48,6 @@ header {
     list-style: none;
 }
 
-header{
-    position: fixed;
-    top:0;
-}
 
 #main-nav a {
     display: block;
@@ -200,7 +197,7 @@ main{
     }
 
 .products{
-    margin-top:20px
+    margin-top:20px;
 }
     
     .galleri section p, .galleri section h2 {
@@ -299,9 +296,6 @@ main{
 @media all and (min-width: 600px) {
 
  /*HEADER NAV*/
-    body{
-        padding-top:130px
-    }
     
     header {
         display: flex;
@@ -411,9 +405,6 @@ main{
 @media all and (min-width: 1024px) {
 
     /*HEADER*/
-    body{
-        padding-top:50px;
-}
     
     header {
         flex-direction: row;
