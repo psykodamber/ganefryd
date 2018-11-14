@@ -477,9 +477,12 @@ main{
     .Nyheder {
         text-align: left;
     }
+    .nyheder p{
+        
+    }
 
     .Graskar {
-        position: relative;
+        
         width: 30%;
         float: right;
         margin-right: 0%;
