@@ -1,15 +1,15 @@
-/* baseret på Michelle's responsive menu*/
  *{
     padding: 0;
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
-/*HEADER*/
+/*HEADER*//* baseret på Michelle's responsive menu*/
 body{
     background-color: #f2e5da;
+    
 }
 
 header {
@@ -289,7 +289,7 @@ main{
         align-content: space-evenly;
     }
     nav {
-        width: 60%;
+        width: 65%;
     }
     
     #bigpicture{
