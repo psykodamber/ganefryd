@@ -3,26 +3,18 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-    font-family: sans-serif;
      line-height: 1.5;
-=======
     font-family: 'Libre Baskerville', serif;
->>>>>>> master
 }
 
 /*HEADER*//* baseret på Michelle's responsive menu*/
 body{
     background-color: #f2e5da;
-
     padding-top:65px;
 }
 
 h1, h2, h3 {
     color:#8e1320;
-=======
-    
->>>>>>> master
 }
 
 header {
