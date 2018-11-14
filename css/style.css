@@ -94,11 +94,18 @@ footer{
     display:flex;
     flex-wrap: wrap;
      width: 90px;
+    
 }
 
 
-footer img {
-    width: 40px;    
+
+
+.Billeder img {
+    width: 40px;
+
+}
+#oeko{
+    height: 40px;
 }
 
 
@@ -136,13 +143,7 @@ main{
     margin: 0 auto;
 }
 
-.Billeder img {
-    display:flex;
-    flex-wrap: wrap;
-    width: 40px;
-    float:left;
 
-}
 
 .wrapper {
     display:flex;
@@ -343,7 +344,6 @@ main{
     
     #bigpicture{
        width: 45%;
-        height: 30%;
         margin: 1%;
         align-self: center;
         
