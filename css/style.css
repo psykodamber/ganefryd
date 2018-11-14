@@ -327,6 +327,9 @@ main{
     footer{
         font-size: 1em;
     }
+    main{
+        width: 80%;
+    }
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
@@ -350,11 +353,10 @@ main{
       #logo img {
     width: 25%;
     }
-    main{
-        width: 60%;
-    }
+}
+    
     
 
 
-}
+
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
