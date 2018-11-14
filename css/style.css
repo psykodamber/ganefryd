@@ -64,6 +64,9 @@ header {
 .hidden {
     display: none;
 }
+#bigpicture{
+    border-radius: 5px;
+}
 
 /*FOOTER*/
 
@@ -75,6 +78,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    bottom: 0;
      
 }
 
@@ -336,6 +340,7 @@ main{
        width: 45%;
         margin: 1%;
         align-self: center;
+        
         
         
     }
