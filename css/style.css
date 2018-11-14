@@ -350,6 +350,9 @@ main{
       #logo img {
     width: 25%;
     }
+    main{
+        width: 60%;
+    }
     
 
 
