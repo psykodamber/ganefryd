@@ -84,6 +84,9 @@ footer{
 
 
 
+
+
+
 .Billeder{
     display:flex;
     flex-wrap: wrap;
@@ -237,6 +240,7 @@ main{
     width: 20%;
     float: right;
 }
+
     
 
 /*Mobil*/
@@ -421,6 +425,9 @@ main{
         margin: 15%;
         margin-top: 5%;
     }
+    #bigwrap section{
+        margin-top: 2%;
+    }
     
     
 }
@@ -437,7 +444,7 @@ main{
         align-content: space-evenly;
     }
     nav {
-        width: 65%;
+        width: 70%;
     }
     
     #bigpicture{
@@ -475,6 +482,11 @@ main{
         bottom: 100px;
         left: 30px;
     }
-    
+    #blog{
+        text-align: center;
+    }
+    footer{
+        justify-content: space-evenly;
+    }
 }
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
