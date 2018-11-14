@@ -74,7 +74,7 @@ footer{
     background-color: #dcc7b4;
     color: #8e1320;
     padding-top: 10px;
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -438,5 +438,6 @@ main{
     #frontpic{
         width:30%;
     }
+    
 }
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
