@@ -228,7 +228,15 @@ main{
     color:#dcc7b4;
 }
 
-    
+/*Nyheder*/
+    .Nyheder {
+    text-align: left;
+}
+
+.Graskar {
+    width: 20%;
+    float: right;
+}
     
 
 /*Mobil*/
@@ -290,6 +298,15 @@ main{
     footer{
         font-size: 0.8em;
     }
+    .Nyheder {
+        text-align: center;
+    }
+.Graskar {
+        width: 70%;
+        margin: 15%;
+        margin-top: 5%;
+    }
+    
 }
 
 
@@ -399,6 +416,12 @@ main{
     .intro{
         width:
     }
+    .Graskar {
+        width: 40%;
+        margin: 15%;
+        margin-top: 5%;
+    }
+    
     
 }
 
@@ -437,6 +460,20 @@ main{
     }
     #frontpic{
         width:30%;
+    }
+    
+    .Nyheder {
+        text-align: left;
+    }
+
+    .Graskar {
+        position: relative;
+        width: 30%;
+        float: right;
+        margin-right: 0%;
+        margin-left: 1%;
+        bottom: 100px;
+        left: 30px;
     }
     
 }
